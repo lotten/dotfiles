@@ -1,5 +1,7 @@
-;; renamin original file for backup breaks hardlinks
+;; renaming original file for backup breaks hardlinks
 (setq backup-by-copying-when-linked t)
+;; disable blinking cursor
+(setq visible-cursor nil)
 ;; LaTeX stuff
 (setq TeX-auto-save t)
 (setq TeX-parse-self t)
