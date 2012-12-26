@@ -398,4 +398,5 @@ function run_once(cmd)
 end
 
 run_once("gnome-settings-daemon")
+run_once("gnome-sound-applet")
 run_once("xset r rate 250 45")
